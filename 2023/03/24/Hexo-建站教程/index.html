@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Hexo 建站教程 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Hexo建站">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo 建站教程">
+<meta property="og:url" content="http://example.com/2023/03/24/Hexo-%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Hexo建站">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2023-03-23T16:46:09.000Z">
+<meta property="article:modified_time" content="2023-03-23T16:49:42.646Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-Hexo-建站教程" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/03/24/Hexo-%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/" class="article-date">
+  <time class="dt-published" datetime="2023-03-23T16:46:09.000Z" itemprop="datePublished">2023-03-24</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      Hexo 建站教程
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="Hexo建站"><a href="#Hexo建站" class="headerlink" title="Hexo建站"></a>Hexo建站</h1><span id="more"></span>
+
+<h5 id="1-前言"><a href="#1-前言" class="headerlink" title="1.前言"></a>1.前言</h5><p>Hexo使用Markdown解析文章，将文章按照指定的主题样式生成静态网页</p>
+<h5 id="2-安装hexo"><a href="#2-安装hexo" class="headerlink" title="2.安装hexo"></a>2.安装hexo</h5><p>提前安装好Node.js和Git，可以通过以下命令安装Hexo</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<p>版本查询</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">node --version    #检查node.js版本</span><br><span class="line">npm --version     #检查npm版本</span><br></pre></td></tr></table></figure>
+
+<h5 id="3-建站"><a href="#3-建站" class="headerlink" title="3.建站"></a>3.建站</h5><p>在文件夹所在位置执行命令，Hexo将会在指定目录中新建所需要的文件，并指定其为工作站</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init &lt;folder&gt;</span><br><span class="line">cd &lt;folder&gt;</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+
+<h6 id="3-1-config-yml"><a href="#3-1-config-yml" class="headerlink" title="3.1._config.yml"></a>3.1._config.yml</h6><p>网站的配置信息</p>
+<h6 id="3-2-package-json"><a href="#3-2-package-json" class="headerlink" title="3.2.package.json"></a>3.2.package.json</h6><p>安装的模块信息</p>
+<h6 id="3-3-scaffolds"><a href="#3-3-scaffolds" class="headerlink" title="3.3.scaffolds"></a>3.3.scaffolds</h6><p>模版文件夹，md文件中有默认填充内容</p>
+<h6 id="3-4-source"><a href="#3-4-source" class="headerlink" title="3.4.source"></a>3.4.source</h6><p>资源文件夹，md和html文件会被解析并放到<code>public</code>文件夹</p>
+<h6 id="3-5-themes"><a href="#3-5-themes" class="headerlink" title="3.5.themes"></a>3.5.themes</h6><p>主题文件夹，Hexo会根据主题解析<code>source</code>目录中的md文件生成静态页面</p>
+<h5 id="4-写作"><a href="#4-写作" class="headerlink" title="4.写作"></a>4.写作</h5><p>执行以下命令创建新文章</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new[layout]&lt;title&gt;</span><br></pre></td></tr></table></figure>
+
+<p>不指定layout则默认为post，可通过修改<code>_config.yml</code>中的<code>default_layout</code>参数来制定文章的默认布局</p>
+<h6 id="4-1-布局"><a href="#4-1-布局" class="headerlink" title="4.1.布局"></a>4.1.布局</h6><p>Hexo有三种默认布局：post、page、draft，分别对应不同路径，自定义布局与post相同，都将部署至<code>source/_post</code>文件夹</p>
+<p>布局路径<code>postsource/_postspagesourcedraftsource/_drafts</code></p>
+<blockquote>
+<p>如果你不想你的文章被处理，你可以将 Front-Matter 中的<code>layout:</code> 设为 <code>false</code></p>
+</blockquote>
+<h6 id="4-2-模板"><a href="#4-2-模板" class="headerlink" title="4.2.模板"></a>4.2.模板</h6><p>scaffolds文件夹中包含有三种默认布局当执行命令如下时</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new scaffold “Black”</span><br></pre></td></tr></table></figure>
+
+<p>Hexo会尝试在scaffolds文件夹中寻找scaffold.md文件，并根据其样式生成文章</p>
+<h6 id="4-3-Front-matter"><a href="#4-3-Front-matter" class="headerlink" title="4.3.Front-matter"></a>4.3.Front-matter</h6><p>Front-matter是指文件最上方以<code>---</code>分割的区域</p>
+<p>其中参数包含</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">layout: 布局</span><br><span class="line">title: 标题</span><br><span class="line">date: 建立日期</span><br><span class="line">updated: 更新日期</span><br><span class="line">comments: 评论开关</span><br><span class="line">truetags: 页面标签</span><br><span class="line">categories: 页面分类</span><br><span class="line">permalink: 覆盖文章网址</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<p>Hexo中不支持同级页面分类</p>
+<h6 id="4-4-文章摘要"><a href="#4-4-文章摘要" class="headerlink" title="4.4.文章摘要"></a>4.4.文章摘要</h6><p>在<code>_config.yml</code>中打开设置（默认打开），其中description中的内容就会被显示在首页上，其余一律不显示</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">excerpt_description:true</span><br></pre></td></tr></table></figure>
+
+<p>在<code>front-matter</code>中添加<code>description</code></p>
+<p>或者在文章添加<code>&lt;!-- more --&gt;</code>，可起到文章截断的作用</p>
+<h6 id="4-5-资源引用"><a href="#4-5-资源引用" class="headerlink" title="4.5.资源引用"></a>4.5.资源引用</h6><p>绝对路径：导入资源url</p>
+<p>相对路径：在<code>_config.yml</code>文件中，将<code>post_asset_folder</code>值设置为<code>true</code></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">post_asset_folder: true</span><br></pre></td></tr></table></figure>
+
+<p>修改之后Hexo会开启文章资源文件管理功能，之后每次创建新文章时，都会自动创建一个同名文件夹，通过相对路径，可以引用相关资源</p>
+<h5 id="5-网站发布"><a href="#5-网站发布" class="headerlink" title="5.网站发布"></a>5.网站发布</h5><p>执行下列命令生成相应的网页及资源在<code>public</code>目录下</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
+
+<h6 id="5-1-hexo-server"><a href="#5-1-hexo-server" class="headerlink" title="5.1.hexo-server"></a>5.1.hexo-server</h6><p>执行下列命令，网站默认会在<a href="http://localhost:4000端口下启动，可通过`-p`选项指定端口，服务器启动期间，Hexo会监听文件并自动更新">http://localhost:4000端口下启动，可通过`-p`选项指定端口，服务器启动期间，Hexo会监听文件并自动更新</a></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server -p 5000</span><br></pre></td></tr></table></figure>
+
+<h6 id="5-2-部署至Git"><a href="#5-2-部署至Git" class="headerlink" title="5.2.部署至Git"></a>5.2.部署至Git</h6><p>生成SSH公钥并绑定到github</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen</span><br></pre></td></tr></table></figure>
+
+<p>将密钥添加至github&#x2F;jitee，之后添加仓库</p>
+<h6 id="5-3-修改hexo主配置文件"><a href="#5-3-修改hexo主配置文件" class="headerlink" title="5.3.修改hexo主配置文件"></a>5.3.修改hexo主配置文件</h6><p>在配置文件<code>_config.yml</code>中的最下方<code>deploy</code>中配置</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/OliverLoki/OliverLoki.github.io.git </span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure>
+
+<p>将仓库https地址覆盖repo地址</p>
+<p>之后每次写完文章后执行以下命令，即可完成自动部署</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy </span><br></pre></td></tr></table></figure>
+
+<h6 id="5-4-访问网站"><a href="#5-4-访问网站" class="headerlink" title="5.4.访问网站"></a>5.4.访问网站</h6><p>通过访问域名部分可直接访问博客</p>
+<h5 id="6-主题切换"><a href="#6-主题切换" class="headerlink" title="6.主题切换"></a>6.主题切换</h5><p>将主题通过git clone或下载的方式，将文件夹放置在<code>themes</code>文件夹下，修改<code>_config.yml</code>文件中的theme值</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">deploy: 主题</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/03/24/Hexo-%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/" data-id="clflcsrmd0000i8tt46p81uko" data-title="Hexo 建站教程" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/03/">March 2023</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2023/03/24/Hexo-%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/">Hexo 建站教程</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2023 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
